@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background-color: #202731;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 100px 20vw;
+}
+
+.space {
+    height: 70vh;
+}
+
+.red_orange {
+    background-color: rgb(246, 73, 136);
+}
+
+.red_orange_dark {
+    background-color: rgb(192, 30, 89);
+}
+
+.custom-shape-divider-bottom-1677919978 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677919978 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 354px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1677919978 .shape-fill {
+    fill: rgb(231, 27, 105);
+}
+
+
+/* .container {
+    text-align: center;
+} */
+
+table {
+    margin: auto;
+}
+
+input {
+    border-radius: 21px;
+    font-size: 34px;
+    height: 65px;
+    width: 260px;
+    scroll-behavior: smooth;
+    border-color: transparent;
+}
+
+.input_bar {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(104, 103, 103, 0.2), 0 6px 20px 0 rgba(113, 112, 112, 0.19);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 10px 25px;
+    color: rgb(246, 73, 136);
+}
+
+button {
+    border-radius: 20px;
+    font-size: 20px;
+    background: rgb(244, 142, 180);
+    width: 75px;
+    height: 60px;
+    margin: 6px;
+    color: white;
+    border-color: transparent;
+}
+
+.calculator {
+    position: absolute;
+    background-color: #f6e8e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 12, 12, 0.19);
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+}

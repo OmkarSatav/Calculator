@@ -80,8 +80,14 @@ button {
     border-color: transparent;
 }
 
+.delete {
+    width: 50%;
+}
+
 .calculator {
     position: absolute;
+    right: 32.65%;
+    top: 5%;
     background-color: #f6e8e8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 12, 12, 0.19);
     padding: 23px;

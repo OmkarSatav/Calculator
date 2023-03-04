@@ -19,6 +19,9 @@ for (btn of inputs) {
                 result = "Expression error";
             }
             display.value = result;
+        } else if (btnText == "del") {
+            monitorValue = monitorValue.slice(0, -1);
+            display.value = monitorValue;
         } else {
             monitorValue += btnText;
             display.value = monitorValue;
